@@ -8,15 +8,17 @@
 header{
     background-color: background: #FFFFFF;
     padding: 28px 0;
+
 }
 .container{
-    max-width: 1294px;
+    max-width: 100%;
     margin: auto;
 }
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1294px;
 }
 header ul{
     list-style: none;
@@ -48,6 +50,7 @@ header ul li:last-of-type{
     margin-bottom: 75px;
     display: flex;
     align-items: center;
+    max-width: 1350px;
 }
 .first h1{
     font-family: 'Readex Pro', sans-serif;
@@ -66,6 +69,9 @@ header ul li:last-of-type{
     color: #000000;
 }
 /*second_page*/
+.second .container{
+    max-width: 1350px;
+}
 .second h2{
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
@@ -86,11 +92,13 @@ header ul li:last-of-type{
     color: #000000;
     margin-bottom: 55px;
 }
-/*third_page*/
-.third {
+/*third_section*/
+.third{
     background: background: #FFFFFF;
     margin-bottom: 78px;
-    ;
+}
+.third .container{
+    max-width: 1350px;
 }
 .laptop{
     background: #FFFFFF;
@@ -123,15 +131,18 @@ header ul li:last-of-type{
     line-height: 38px;
     color: #000000;
 }
-
+/*Phones*/
 .phones{
     background: #FFFFFF;
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
     max-width: 312px;
     max-height: 792px;
     border-radius: 32px;
-    padding-bottom: 144px;
     padding-top: 144px;
+    padding-bottom: 144px;
+}
+.phones img{
+    margin: 0 0 41px 16px;
 }
 .phones p{
     font-family: 'Inter', sans-serif;
@@ -141,7 +152,7 @@ header ul li:last-of-type{
     line-height: 19px;
     text-align: center;
     color: #000000;
-    padding-top: 41px;
+
 }
 .phones h2{
     font-family: 'Readex Pro', sans-serif;
@@ -162,6 +173,9 @@ header ul li:last-of-type{
     padding-top: 114px;
     padding-bottom: 115px;
 }
+.tablet img{
+   margin-top: 42px;
+}
 .tablet p{
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -179,7 +193,7 @@ header ul li:last-of-type{
     line-height: 38px;
     text-align: center;
     color: #000000;
-    padding-bottom: 42px;
+
 }
 /*Часы*/
 .watch{
@@ -189,11 +203,35 @@ header ul li:last-of-type{
     max-height: 270px;
     border-radius: 32px;
 }
+.watch img{
+   margin-left: 42px;
+}
+.watch p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+}
+.watch h2{
+    font-family: 'Readex Pro', sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+}
 /*fourth*/
 .fourth{
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    margin-bottom: 59px;
+}
+.fourth .container{
+    max-width: 1350px;
 }
 .fourth h2{
     font-family: 'Readex Pro', sans-serif;
@@ -213,4 +251,212 @@ header ul li:last-of-type{
     line-height: 17px;
     color: #000000;
     margin-bottom: 31px;
+    text-align: center;
+}
+/*fifth*/
+.fifth{
+    background-color: #FFFFFF;
+    margin-bottom: 74px;
+}
+.fifth .container{
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+}
+.fifth .container .mbpro13 img,.galw3 img,.mbair img,.ipad img{
+    padding: 0 42px 37px 42px;
+}
+.fifth .container h2{
+    padding-bottom: 9px;
+}
+.fifth .container p{
+    max-width: 261px;
+    padding-bottom: 25px;;
+}
+
+.fifth .mbpro13 h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+.fifth .mbpro13 p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+}
+.fifth .mbpro13 h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.fifth .galw3 h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+.fifth .galw3  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+}
+.fifth .galw3  h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.fifth .mbair h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+.fifth .mbair  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+}
+.fifth .mbair  h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.fifth .ipad h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+.fifth .ipad  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+}
+.fifth .ipad  h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+/*sixth*/
+.sixth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+.sixth h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+.sixth p{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+
+}
+/*seventh_section*/
+.seventh .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin-bottom: 56px;
+}
+.allblok{
+}
+.df-ju{
+    display: flex;
+    justify-content: center;
+}
+.seventh article .blok{
+    width: 413px;
+    height: 453px;
+    background: #F8F9FA;
+    border-radius: 16px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+/*eighth_section*/
+.eighth{
+    margin-bottom: 73px;
+}
+.eighth .container{
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.eighth .container p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 28px;
+}
+.eighth .container ul{
+    list-style: none;
+}
+/*ninth_section*/
+.ninth .container{
+    display: flex;
+    justify-content: center;
+}
+.ninth .container a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.ninth .container a img{
+    position: absolute;
+
 }
