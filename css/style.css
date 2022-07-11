@@ -444,11 +444,12 @@ header ul li:last-of-type{
 .ninth .container{
     display: flex;
     justify-content: center;
+    margin-bottom: 75px;
 }
 .ninth .container a{
     display: inline-block;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -459,4 +460,69 @@ header ul li:last-of-type{
 .ninth .container a img{
     position: absolute;
 
+}
+/*Tenth_section*/
+.tenth .container{
+    margin-bottom: 24px;
+}
+.tenth h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+.tenth .poisk{
+    background: #F8F9FA;
+    width: 650px;
+    height: 80px;
+    border-radius: 100px;
+    margin-bottom: 18px;
+}
+
+.tenth .poisk input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.products{
+    margin-bottom: 68px;
+}
+.signup{
+    background: #DCE5E2;
+    border-radius: 32px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    max-width: 1350px;
+    margin-bottom: 19px;
+}
+.signup button{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    padding: 25px 57.5px;
+    border: none;
+  }
+.post{
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+}
+/*footer_section*/
+footer{
+    background: #F8F9FA;
 }
